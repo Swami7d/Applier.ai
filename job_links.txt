@@ -1,0 +1,9 @@
+with open("job_links.txt") as f:
+    job_links = f.readlines()
+
+for job_url in job_links:
+    driver.get(job_url.strip())
+    # repeat the same apply steps here...
+
+https://www.linkedin.com/jobs/view/4204373408
+https://www.linkedin.com/jobs/view/4213518008
